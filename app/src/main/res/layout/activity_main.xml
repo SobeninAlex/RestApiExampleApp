@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="18dp"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:showDividers="middle"
+    android:divider="@drawable/divider"
+    tools:context=".presentation.MainActivity">
+
+    <Button
+        android:id="@+id/get_button"
+        style="@style/ButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GET" />
+
+    <Button
+        android:id="@+id/post_button"
+        android:layout_width="match_parent"
+        style="@style/ButtonStyle"
+        android:layout_height="wrap_content"
+        android:text="POST" />
+
+    <Button
+        android:id="@+id/put_button"
+        style="@style/ButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PUT" />
+
+    <Button
+        android:id="@+id/patch_button"
+        android:layout_width="match_parent"
+        style="@style/ButtonStyle"
+        android:layout_height="wrap_content"
+        android:text="PATCH" />
+
+    <Button
+        android:id="@+id/delete_button"
+        android:layout_width="match_parent"
+        style="@style/ButtonStyle"
+        android:layout_height="wrap_content"
+        android:text="DELETE"/>
+
+</LinearLayout>
